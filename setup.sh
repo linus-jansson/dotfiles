@@ -6,4 +6,6 @@ cd $SCRIPT_DIR && git pull
 
 ln -fs $SCRIPT_DIR/git/.gitconfig ~/.gitconfig
 ln -fs $SCRIPT_DIR/bash/.bashrc ~/.bashrc
+
+ln -fs $SCRIPT_DIR/neofetch/.bashrc ~/.config/neofetch/
 #ln -fs $SCRIPT_DIR/git/.gitconfig ~/.gitconfig
