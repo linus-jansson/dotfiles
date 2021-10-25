@@ -122,4 +122,4 @@ PS1=$'
 └╼ $ '
 
 
-label vim="nvim"
+alias vim="nvim"
