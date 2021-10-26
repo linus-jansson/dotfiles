@@ -18,5 +18,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'airblade/vim-gitgutter'
 
     Plug 'itchyny/lightline.vim'
-
+    " Emmet
+    Plug 'mattn/emmet-vim'
 call plug#end()
