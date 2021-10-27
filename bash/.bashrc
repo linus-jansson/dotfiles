@@ -117,9 +117,11 @@ if ! shopt -oq posix; then
 fi
 
 
-PS1=$'
-┌──[ \e[0;32m\h @ \u\e[0m ]─[ \W ]
-└╼ $ '
+# PS1=$'
+# ┌──[ \e[0;32m\h @ \u\e[0m ]─[ \W ]
+# └╼ $ '
+
+eval "$(starship init bash)"
 
 
 alias vim="nvim"
