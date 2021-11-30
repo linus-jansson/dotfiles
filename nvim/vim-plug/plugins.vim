@@ -22,4 +22,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mattn/emmet-vim'
     " CtrlP?
     Plug 'ctrlpvim/ctrlp.vim'
+
+    Plug 'ycm-core/YouCompleteMe'
 call plug#end()
