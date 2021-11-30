@@ -20,4 +20,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'itchyny/lightline.vim'
     " Emmet
     Plug 'mattn/emmet-vim'
+    " CtrlP?
+    Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
