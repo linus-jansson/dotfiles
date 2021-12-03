@@ -21,7 +21,6 @@ def main():
     elif sys.platform == 'win32':
         # Windows...
         os.system(f'{os.getcwd()}\setup-windows.bat')
-        # checkForAdmin() and 
         if auto_update_checker == 'Y':
             print('We are admin')
             print('Placing config updater in shell:autostart')
