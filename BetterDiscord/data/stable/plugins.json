@@ -1,0 +1,17 @@
+{
+    "CallTimeCounter": true,
+    "ZeresPluginLibrary": true,
+    "ReadAllNotificationsButton": true,
+    "BetterRoleColors": true,
+    "Translator": false,
+    "BDFDB": true,
+    "SplitLargeMessages": true,
+    "ShowHiddenChannels": true,
+    "BetterCodeblocks": true,
+    "TopRoleEverywhere": true,
+    "BlurNSFW": true,
+    "FriendNotifications": true,
+    "TypingIndicator": true,
+    "BugReportHelper": true,
+    "FreeEmojis": true
+}
