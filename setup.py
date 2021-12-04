@@ -33,6 +33,7 @@ def main():
         os.system(f'bash {os.getcwd()}/setup-linux.sh')
         if auto_update_checker == "Y":
             if check_for_crontab():
+                # TODO: Fix so it appends to crontab but if it already has this content of 'updater' it wont update it
                 print("Crontab already exists, saved content to 'tmp_crontab'")
                 # with open('tmp_crontab', 'a+b'):
             else:
