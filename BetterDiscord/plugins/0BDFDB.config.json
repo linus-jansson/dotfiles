@@ -1,7 +1,8 @@
 {
 	"changeLogs": {
+		"BDFDB": "2.0.6",
 		"FriendNotifications": "1.8.1",
-		"ShowHiddenChannels": "3.0.3",
+		"ShowHiddenChannels": "3.0.4",
 		"SplitLargeMessages": "1.7.0",
 		"TopRoleEverywhere": "3.0.7",
 		"Translator": "2.3.2"
@@ -15,7 +16,7 @@
 		"useChromium": false
 	},
 	"hashes": {
-		"0BDFDB.data.json": "5b2f229315b76aecdcfd79938193b9ebe0407b41",
-		"0BDFDB.raw.css": "6bb82eb9f45d2d68a03ad2d3e21dcf35a5e2e3ee"
+		"0BDFDB.data.json": "a485715019970a30abc55c2a0b8f00bf3240974a",
+		"0BDFDB.raw.css": "a1036e10077b9457f3903795204f7dbd91d7646d"
 	}
 }
