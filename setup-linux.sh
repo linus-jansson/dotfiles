@@ -8,6 +8,7 @@ cd $SCRIPT_DIR && git pull
 
 ln -fs $SCRIPT_DIR/git/.gitconfig ~/.gitconfig
 ln -fs $SCRIPT_DIR/zsh/.zshrc ~/.zshrc
+ln -fs $SCRIPT_DIR/suckless/ ~/.config/
 # ln -fs $SCRIPT_DIR/bash/.bashrc ~/.bashrc
 ln -fs $SCRIPT_DIR/themes/ ~/.themes
 ln -fs $SCRIPT_DIR/nvim/ ~/.config/
