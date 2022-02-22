@@ -37,6 +37,7 @@ source $ZSH/oh-my-zsh.sh
 alias vim="nvim"
 alias hacker="exec neofetch & st -e cmatrix & st -e hollywood"
 alias sc="scrot ~/Dropbox/Screenshots/%Y-%m-%m-%T-screenshot.png"
+alias files="ranger"
 # Starship
 # eval “$(starship init zsh)”
 
