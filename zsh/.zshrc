@@ -35,6 +35,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Set personal aliases.
 alias vim="nvim"
+alias hacker="exec neofetch & st -e cmatrix & st -e hollywood"
 
 # Starship
 # eval “$(starship init zsh)”
