@@ -22,7 +22,7 @@ static const char *colors[][3]      = {
 
 /* tagging */
 /* https://fontawesome.com/v4/cheatsheet/ */
-static const char *tags[] = { "", " ", "_", "_", "_", "_", "_", "", "" };
+static const char *tags[] = { "", " ", "_", "", "_", "_", "_", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -34,7 +34,8 @@ static const Rule rules[] = {
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
   { "discord",  NULL,       NULL,       1 << 7,       0,           -1 },
   { "Spotify",  NULL,       NULL,       1 << 6,       0,           -1 },
-  { "Code",     NULL,       NULL,       1 << 1,       0,           -1 }
+  { "Code",     NULL,       NULL,       1 << 1,       0,           -1 },
+  { "steam",    NULL,       NULL,       1 << 3,       0,           -1 }
 
 
 
