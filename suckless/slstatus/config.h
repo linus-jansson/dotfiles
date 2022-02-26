@@ -65,12 +65,7 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-<<<<<<< Updated upstream
 	{ netspeed_tx, "[NET: %sb/s] | ", "enp7s0"},
-=======
-	{ netspeed_tx, "[NET: %sb/s] | ", "wlp0s20f3"},
-	{ run_command, "[VOL: %s] | ", "amixer sget Master | grep -o  -e '\[[[:digit:]]*%\]' -e '\[[a-z]*\]' | tr '\n' ' ' | tr -d '[' | tr -d ']' "},
->>>>>>> Stashed changes
 	{ cpu_perc, "[CPU: %s%%] | ", NULL	      },
 	{ ram_perc, "[RAM: %s%%] | ", NULL	      },
 	{ datetime, "%s",           "%F %T" },
