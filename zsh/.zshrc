@@ -39,8 +39,11 @@ alias hacker="exec neofetch & st -e cmatrix & st -e hollywood"
 alias sc="scrot ~/Dropbox/Screenshots/%Y-%m-%m-%T-screenshot.png"
 alias files="ranger"
 alias cdcrypto="cd ~/.local/share/Cryptomator/mnt/"
+
 # Starship
 # eval “$(starship init zsh)”
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
