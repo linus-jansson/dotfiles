@@ -1,3 +1,0 @@
-0 * * * * cd $HOME/Github/configfiles/ && git pull
-#0 12 * * * source $HOME/Github/configfiles/setup-linux.sh
-
