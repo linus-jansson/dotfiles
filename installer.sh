@@ -1,3 +1,6 @@
+# Add the universe repository
+sudo add-apt-repository universe
+
 sudo apt update && sudo apt upgrade
 sudo apt -y install htop i3 zsh curl git kitty vim
 
@@ -43,3 +46,5 @@ echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] 
 # 3. Update your package database and install signal
 sudo apt update && sudo apt install signal-desktop
 
+
+sudo apt install fonts-firacode
