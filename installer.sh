@@ -7,15 +7,21 @@ sudo apt -y install htop i3 zsh curl git kitty vim locate
 #picom
 sudo apt install -y libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl-dev libegl-dev libpcre2-dev libpcre3-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev meson
 
-mkdir ~/picom_temp/ && cd ~/picom_temp/
+mkdir ~/picom_temp/ 
+cd ~/picom_temp/
 
 git clone https://github.com/yshui/picom.git
+
+cd picom/
 
 git submodule update --init --recursive
 meson --buildtype=release . build
 ninja -C build
 
 ninja -C build install
+
+cd ~/ 
+rm -rf ~/picom_temp/
 
 # oh my zsh and power 10k
 # https://github.com/romkatv/powerlevel10k
