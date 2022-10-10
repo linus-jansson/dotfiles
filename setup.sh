@@ -8,6 +8,7 @@ SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 ln -fs $SCRIPT_DIR/gitconfig/.gitconfig ~/.gitconfig
 ln -fs $SCRIPT_DIR/zsh/.zshrc ~/.zshrc
+ln -fs $SCRIPT_DIR/zsh/.p10k.zsh ~/.p10k.zsh
 ln -fs $SCRIPT_DIR/zsh/.oh-my-zsh/ ~/
 ln -fs $SCRIPT_DIR/i3/ ~/.config/
 ln -fs $SCRIPT_DIR/kitty/ ~/.config/
